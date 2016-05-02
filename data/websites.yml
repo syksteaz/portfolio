@@ -1,0 +1,29 @@
+squirrel:
+  url: "http://www.squirrel.financial"
+  url_2: "http://www.squirrel.financial/open_data"
+  picture: squirrel_global_portfolio_2.png
+  valueprop: "Squirrel is helping banks marketing departments to refine their pricing of consumer credits"
+  tech_features: "website scrapping / data-quality / data-vizualisation"
+  stack: "ruby, rails, postgresql, jquery, ajax, bootstrap, capybara, google charts"
+  ruby_gems: "sidekiq, chartkick(Google charts), devise, axlsx, mechanize, nokogiri"
+  note: "Squirrel is a private project but take a look at the data universe"
+
+burolao:
+  url: ""
+  ulr_2:
+  picture: burolao.png
+  valueprop: "Burolao allows professionals to find a temporary office everywhere in someone else flat"
+  tech_features: "Booking platform"
+  stack: "ruby, rails, postgresql, bootstrap, awss3"
+  ruby_gems: "omniauth-facebook, geocoder, figaro, paperclip"
+  note: "Project built with Sergio Monteiro and Anna Mimouni during 4 days at 'le wagon' coding bootcamp"
+
+gist_manager:
+  url: "https://gistsup.herokuapp.com"
+  url_2:
+  picture: portfolio_gitstup.png
+  valueprop: "With gistsup, bring order in your github gists!"
+  tech_features: "productivity tool"
+  stack: "ruby, rails, mySql, Github API"
+  ruby_gems: "octokit, rest-client, omniauth-github"
+  note: ""
