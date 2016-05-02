@@ -72,13 +72,18 @@ title: Edouard Winia - Fullstack web developper - Porfolio
             <h5 class="line-heighted light-blue-grey"><span class="red_colored bold">Features</span> <%= infos.tech_features %></h5>
             <h5 class="line-heighted light-blue-grey"><span class="red_colored bold">Stack</span> <%= infos.stack %></h5>
             <h5 class="line-heighted light-blue-grey margin-bottom-light"><span class="red_colored bold">Ruby gems</span> <%= infos.ruby_gems %></h5>
-          <% link_to infos.url, class: "text-center" do %>
-            <%= image_tag infos.picture, class: "img-thumbnail img-resized" %>
-          <% end %>
-          <h5 class="line-heighted light-blue-grey italic margin-bottom-light"><%= infos.note %>
-            <% if infos.url_2 != nil %>
-              <%= link_to "here", infos.url_2 %></h5>
+            <% if infos.url != nil %>
+              <% link_to infos.url, class: "text-center", target: "_blank" do %>
+                <%= image_tag infos.picture, class: "img-thumbnail img-resized" %>
+              <% end %>
+            <% else %>
+                <%= image_tag infos.picture, class: "img-thumbnail img-resized" %>
             <% end %>
+            <h5 class="line-heighted light-blue-grey italic margin-bottom-light"><%= infos.note %>
+              <% if infos.url_2 != nil %>
+                <%= link_to "here", infos.url_2, target: "_blank" %>
+              <% end %>
+            </h5>
           </div>
         </div>
       </div>

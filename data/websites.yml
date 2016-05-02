@@ -9,14 +9,14 @@ squirrel:
   note: "Squirrel is a private project but take a look at the data universe"
 
 burolao:
-  url: ""
-  ulr_2:
-  picture: burolao.png
+  url:
+  ulr_2: "https://www.lewagon.com/"
+  picture: burolao3.png
   valueprop: "Burolao allows professionals to find a temporary office everywhere in someone else flat"
   tech_features: "Booking platform"
   stack: "ruby, rails, postgresql, bootstrap, awss3"
   ruby_gems: "omniauth-facebook, geocoder, figaro, paperclip"
-  note: "Project built with Sergio Monteiro and Anna Mimouni during 4 days at 'le wagon' coding bootcamp"
+  note: "Project built with Sergio Monteiro and Anna Mimouni during 4 days at 'Le Wagon' coding bootcamp."
 
 gist_manager:
   url: "https://gistsup.herokuapp.com"
