@@ -1,3 +1,13 @@
+answers to drivy backend challenges:
+  url: "https://github.com/syksteaz/drivy_challenges"
+  url_2: "https://github.com/drivy/jobs/tree/master/backend"
+  picture: drivy_code.png
+  valueprop: "Drivy lets you rent one of the thousands of cars and vans available in your area. It’s fast and affordable, so you can get going without hassle."
+  tech_features: "Ruby object oriented programming"
+  stack: "ruby 2.3.0"
+  ruby_gems: "pry, rubocop"
+  note: "You may find the original Drivy challenge questions"
+
 squirrel:
   url: "http://www.squirrel.financial"
   url_2: "http://www.squirrel.financial/open_data"
