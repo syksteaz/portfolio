@@ -1,0 +1,142 @@
+// dimensions
+.container {
+  max-width: 70%;
+}
+
+
+// color elements
+.white {
+  background-color: white;
+  border-radius: 2px;
+}
+
+.light-grey {
+  background-color: #E9F1F2;
+  margin: 1.5em;
+}
+
+.light-blue-grey {
+  color: rgb(156,159,184);
+}
+
+.custom-img_width {
+  width: 10em;
+  margin-top: 22px;
+}
+
+.purpled {
+  color: $purple;
+}
+
+.red_colored {
+  color: $red;
+}
+
+
+// better style
+.shadowed {
+  box-shadow: 0 1px 5px #bbb;
+}
+
+.letter-spaced {
+  letter-spacing: 1.2px;
+}
+
+.line-heighted {
+  line-height: 1.2em !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  margin-left: 47.5%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a {
+  color: #553b7c;
+  &:hover {
+    text-decoration: none;
+    color: $purple;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+
+// miscellaneous
+
+h3 {
+  font-size: 24px;
+}
+
+#message-me {
+  // width: 70px;
+  color: #FFF;
+  background: #ef3e38;
+  border-radius: 100px;
+  padding: 15px;
+  font-size: 14px;
+  position: fixed;
+  top: 10px !important;
+  left: 80%;
+  z-index: 200;
+  cursor: pointer;
+  -webkit-transition: all 120ms ease-in;
+  -moz-transition: all 120ms ease-in;
+  -o-transition: all 120ms ease-in;
+  transition: all 120ms ease-in;
+}
+
+#message-me:hover {
+  background: #221e5a;
+  -webkit-transition: all 180ms ease-in;
+  -moz-transition: all 180ms ease-in;
+  -o-transition: all 180ms ease-in;
+  transition: all 180ms ease-in;
+}
+
+#img-mail {
+  height: 3em;
+}
+
+.anchor-link {
+  width: 4em;
+}
+
+.cta-email-me {
+  border: 3px solid #ef3e38;
+  display: block;
+  width: 300px;
+  padding: 20px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin: 60px auto 0px auto;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+}
+
+.cta-email-me:hover {
+  color: #221e5a;
+  border: 3px solid #221e5a;
+  display: block;
+  padding: 30px 20px;
+  cursor: pointer;
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Chrome, Safari, Opera */
+  transform: scale(1.03);
+}
+
+.cta-email-me:visited {
+  text-decoration: none;
+}
